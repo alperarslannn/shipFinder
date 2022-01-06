@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			href="./cruiseshiptransportationlogistictravel_109809.ico"
+		/>
+		<meta name="robots" content="index,follow" />
+		<link rel="stylesheet" href="./ship_finder.css" />
+		<title>Ship Finder</title>
+	</head>
+	<body>
+		<div class="game-menu">
+			<div id="upperMenu">
+				<h1 class="game-head">Ship Finder Game!</h1>
+				<h2 class="move-counter">Move Count</h2>
+			</div>
+			<div class="start-game">
+				<button class="start-button" onclick="removeStart()">
+					Start
+				</button>
+			</div>
+			<div class="restart-game">
+				<div class="finish-screen-text">
+					<div id="maxGameScore">Game Max Score:120</div>
+					<div id="finalScore">Your Score:100</div>
+				</div>
+				<button class="restart-button" onclick="restartGame()">
+					Play Again
+				</button>
+			</div>
+			<div class="game">
+				<div class="first row">
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+				</div>
+				<div class="second row">
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+				</div>
+				<div class="third row">
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+				</div>
+				<div class="forth row">
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+				</div>
+				<div class="fifth row">
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+				</div>
+				<div class="sixth row">
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+					<button class="grid_member"></button>
+				</div>
+			</div>
+		</div>
+		<script src="./ship_finder.js"></script>
+	</body>
+</html>
